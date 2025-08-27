@@ -8,6 +8,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    background: #000;
 }
 
 #simulator{
@@ -22,7 +23,7 @@
 h1{
     font-size: 34px;
     font-weight: 700;
-    color: #1c9882;
+    color: #fcfcfc;
     text-align: center;
     padding-bottom: 50px;
     border-bottom: 2px solid #7a93ab;
@@ -40,7 +41,7 @@ h1{
 }
 
 h2{
-    color: #202d37;
+    color: #ffffff;
     font-weight: 700;
     font-size: 28px;
     margin-bottom: 14px;
@@ -48,13 +49,14 @@ h2{
 
 .left p{
     margin-bottom: 30px;
-    color: #2f3c46;
+    color: #f7f7f7;
 }
 
 form{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    border-radius: 6px;
 }
 
 .group-data.two-columns{
@@ -79,7 +81,7 @@ form{
 .group-data label{ 
     display: block;
     margin-bottom: 10px;
-    color: #202d37;
+    color: #ffffff;
 }
 .group-data input,
 .group-data select{
@@ -97,12 +99,14 @@ form button{
     border: 1px solid #1c9882;
     transition: .4s;
     cursor: pointer;
+    border-radius: 6px;
 }
 
 form button:hover{
     background: #f5f8fa;
     border: 1px solid #1c9882;
     color: #1c9882;
+    border-radius: 6px;
 }
 
 input, select{
@@ -189,4 +193,19 @@ input::placeholder {
 
 .notificacion h5 span{
     font-weight: 700;
+}
+select {
+    background-color: #fff;   /* Fondo blanco */
+    color: #333;              /* Texto gris oscuro */
+    font-size: 14px;
+    width: 100%;
+    appearance: none;         /* Quita estilos del navegador */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+}
+
+select option {
+    background: #fff;  /* Fondo de opciones */
+    color: #333;       /* Texto normal */
 }
