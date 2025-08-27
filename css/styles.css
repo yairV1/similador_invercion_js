@@ -94,18 +94,18 @@ form button{
     display: block;
     width: 97%;
     padding: 14px 80px;
-    background: #1c9882;
-    color: #fff;
-    border: 1px solid #1c9882;
+    background: #ffffff;
+    color: #000000;
+    border: 1px solid #cc1f1f;
     transition: .4s;
     cursor: pointer;
     border-radius: 6px;
 }
 
 form button:hover{
-    background: #f5f8fa;
-    border: 1px solid #1c9882;
-    color: #1c9882;
+    background: #000000;
+    border: 1px solid #c52020;
+    color: #ffffff;
     border-radius: 6px;
 }
 
