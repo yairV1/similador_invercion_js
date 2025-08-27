@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Merriweather", serif;
-    background: #000;
+    background: #000000;
 }
 
 #simulator{
@@ -92,7 +92,7 @@ form button{
     width: 97%;
     padding: 14px 80px;
     background: #ffffff;
-    color: #000000;
+    color: #d63737;
     border: 1px solid #cc1f1f;
     transition: .4s;
     cursor: pointer;
@@ -114,7 +114,7 @@ input, select{
     outline: none;
 }
 input::placeholder {
-    color: #000; /* Cambia este valor al color que desees */
+    color: #000000; /* Cambia este valor al color que desees */
 }
 
 .right .pre-simulation{
@@ -144,25 +144,26 @@ input::placeholder {
 }
 
 .right .post-simulation h3{
-    color: #202d37;
+    color: #ffffff;
     font-size: 22px;
     font-weight: 300;
     margin-bottom: 40px;
 }
 
 .right .post-simulation h3 span{
-    color: #1c9882;
+    color: #e6e6e6;
     font-weight: 600;
     font-size: 24px;
 }
 
 .right .total{
-    background: #1c988259;
-    padding: 30px;
+    background: #ffffff;
+    padding: 20px;
 }
 
 .right .total h4{
     font-size: 28px;
+    color: #e6e6e6;
 }
 
 .right .total h2{
@@ -172,6 +173,7 @@ input::placeholder {
 
 .total p{
     font-weight: 400;
+    color: #f7f7f7;
 }
 
 .total p span{
@@ -180,12 +182,13 @@ input::placeholder {
 
 .notificacion{
     padding: 20px;
-    border: 1px solid #1c9882;
+    border: 1px solid #ffffff;
     margin-top: 40px;
 }
 
 .notificacion h5{
     font-weight: 400;
+    color: #f7f7f7;
 }
 
 .notificacion h5 span{
