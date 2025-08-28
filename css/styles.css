@@ -114,7 +114,7 @@ input, select{
     outline: none;
 }
 input::placeholder {
-    color: #000000; /* Cambia este valor al color que desees */
+    color: #000000; 
 }
 
 .right .pre-simulation{
@@ -195,17 +195,42 @@ input::placeholder {
     font-weight: 700;
 }
 select {
-    background-color: #d7dbdf;   /* Fondo blanco */
-    color: #333;              /* Texto gris oscuro */
+    background-color: #d7dbdf;  
+    color: #333;            
     font-size: 14px;
     width: 100%;
-    appearance: none;         /* Quita estilos del navegador */
+    appearance: none;         
     -webkit-appearance: none;
     -moz-appearance: none;
     cursor: pointer;
 }
 
 select option {
-    background: #d7dbdf;  /* Fondo de opciones */
-    color: #333;       /* Texto normal */
+    background: #d7dbdf;  
+    color: #333;      
 }
+footer {          
+    color: #eee;              
+    text-align: center;        
+    padding: 20px 10px;       
+    margin-top: 40px;         
+    font-family: Arial, sans-serif;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #aaa;             
+}
+
+footer a {
+    color: #4cafef;           
+    text-decoration: none;     
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+footer a:hover {
+    color: #00ffcc;           
+    transform: scale(1.1);    
+}
+

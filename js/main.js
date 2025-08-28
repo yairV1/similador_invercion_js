@@ -28,7 +28,8 @@ function simulador() {
         if (cNombre === "" || cEmail === "" || cTelefono === "" || cMonto === "" || cTiempo === "") {
             alert("Completa todos los campos")
         }else{
-            
+            contPost.classList.remove('disabled');
+            contPost.classList.remove('disabled');
         switch (cTiempo) {
             case '1':
                 // en este case realizaremos el calculo si el tiempo coresponde a un año
