@@ -91,9 +91,9 @@ form button{
     display: block;
     width: 97%;
     padding: 14px 80px;
-    background: #ffffff;
-    color: #d63737;
-    border: 1px solid #cc1f1f;
+    background: #d7dbdf;
+    color: #443f3f;
+    border: 1px solid #49d6e0;
     transition: .4s;
     cursor: pointer;
     border-radius: 6px;
@@ -101,14 +101,14 @@ form button{
 
 form button:hover{
     background: #000000;
-    border: 1px solid #c52020;
+    border: 1px solid #ffffff;
     color: #ffffff;
     border-radius: 6px;
 }
 
 input, select{
     padding: 14px 30px;
-    background: #f5f8fa;
+    background: #d7dbdf;
     border: 0;
     border-bottom: 2px solid #7a93ab;
     outline: none;
@@ -151,7 +151,7 @@ input::placeholder {
 }
 
 .right .post-simulation h3 span{
-    color: #e6e6e6;
+    color: #df6b6b;
     font-weight: 600;
     font-size: 24px;
 }
@@ -195,7 +195,7 @@ input::placeholder {
     font-weight: 700;
 }
 select {
-    background-color: #fff;   /* Fondo blanco */
+    background-color: #d7dbdf;   /* Fondo blanco */
     color: #333;              /* Texto gris oscuro */
     font-size: 14px;
     width: 100%;
@@ -206,6 +206,6 @@ select {
 }
 
 select option {
-    background: #fff;  /* Fondo de opciones */
+    background: #d7dbdf;  /* Fondo de opciones */
     color: #333;       /* Texto normal */
 }
